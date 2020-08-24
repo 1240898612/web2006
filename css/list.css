@@ -1,0 +1,77 @@
+img{transition: transform 1s;}
+img:hover{
+	transform: scale(1.1);
+}
+
+.my_bg{background-image: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);}
+.my_btn_1:focus{
+	border: 0;outline: 0;
+}
+
+.my_btn_1:hover{
+	border: 0;outline: 0;
+	background:#b3b3b3 100%;
+	transform: scale(1.1);
+}
+
+.my_btn_1{
+	width: 1.25rem;height: 1.25rem;
+	border: 0;outline: 0;
+	background-image: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+	font-weight: bolder;
+	line-height: 0.2rem;
+	color: #fff;
+	font-size: 1.8rem;
+	cursor: pointer;
+}
+
+.my_text_1{
+	border: 0;outline: 0;
+	width: 8%;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.my_div_1:hover{
+	box-shadow: 0px 0px 5px 1px #b3b3b3;
+	transition: 0.2s linear;
+	transition-delay: 0s;
+	}
+	
+.my_a_1:hover{
+	box-shadow: 0px 0px 0px 0px #000000 !important;
+}
+.my_a_1:focus{
+	box-shadow: 0px 0px 0px 0px #000000 !important;
+}
+
+.pagination>.page-item.active>.page-link{
+	background-color: #0AA1ED;
+	color: #fff !important;
+	}
+
+.page-item+.page-item{
+	margin-left: .3rem;
+}
+
+.pagination>.page-item.disabled>.page-link{background-color: #f2f2f2; color: #ccc;}
+
+.pagination>.page-item>.page-link:hover{
+	border: 1px solid #007BFF;
+	}
+	
+.pagination>.page-item>.page-link{
+	background: transparent;
+	padding: 0.3rem 0.6rem;
+	font-size: 0.8rem;
+	border-color: #ccc;
+	border-radius: 0.25rem;
+	}
+
+.my_float_1{float: right;}
+.border-top{
+	border-top: 1px dashed #999 !important;
+}
+.w-25{width: 30% !important;}
+
+.text_a_none:hover{text-decoration: none;}
